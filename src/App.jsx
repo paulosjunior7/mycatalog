@@ -5,7 +5,7 @@ import sistemaobras from "./assets/sistemaobras.png";
 
 function App() {
   return (
-    <div className="relative ">
+    <div className="relative mb-2">
       <div className="absolute top-0 left-0 w-full -z-10 bg-cover bg-center">
         <img
           src={foto}
@@ -63,7 +63,7 @@ function App() {
           </div>
         </div>
 
-        <div className="bg-slate-800 w-full h-96 flex p-4 rounded-xl mt-4 max-w-[400px]">
+        <div className="bg-slate-800 w-full h-96 flex p-4 rounded-xl mt-4 max-w-[400px] mb-5">
           <div className="bg-slate-300 h-auto rounded-xl relative overflow-hidden">
             <img src={sistemaobras} alt="produto" className="rounded-t-xl" />
             <div className="absolute w-full bottom-0 left-0 h-24 bg-slate-700 p-3 rounded-b-xl overflow-hidden">
