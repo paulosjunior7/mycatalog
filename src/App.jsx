@@ -38,7 +38,7 @@ function App() {
               </span>
               <div
                 onClick={() => {
-                  window.open("https://chk.eduzz.com/2149503");
+                  window.open("https://p.eduzz.com/2149503");
                 }}
                 className="bg-white text-black text-sm font-semibold px-3 py-1 rounded-lg mt-2  w-full h-9 justify-between flex items-center"
               >
